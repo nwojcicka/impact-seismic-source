@@ -1,0 +1,25 @@
+#ISMAT
+--------------------------------------------------------
+MATNAME       Material name                 : impactr     : reglith
+EOSNAME       EOS name                      : basalt_     : basalt_
+EOSTYPE       EOS type                      : tillo       : tillo
+STRMOD        Strength model                : LUNDD       : LUNDD
+DAMMOD        Damage model                  : NONE        : NONE
+ACFL          Acoustic fluidisation         : NONE        : NONE
+PORMOD        Porosity model                : NONE        : WUNNEMA
+THSOFT        Thermal softening             : NONE        : NONE
+LDWEAK        Low density weakening         : POLY        : POLY
+--------------------------------------------------------
+POIS          pois                          : 3.0000D-01  : 3.0000D-1
+---------------- Strength properties -------------------
+YDAM0         Y0=cohesion0                  : 1.0000D+4   : 5.0000D+3
+FRICDAM       internal friction             : 0.7000D+0   : 0.6000D0
+YLIMDAM       limiting strength             : 1.0000D+9   : 2.5000D+8
+--------------- Porosity properties -------------------
+ALPHA0        Initial porosity              : 0.0000D+0   : 1.8D0
+EPSE0         Elastic threshold             : 0.0000D+0   : -2D-4
+ALPHAX        Transition                    : 0.0000D+0   : 1.2D0
+KAPPA         Exp coefficient               : 0.0000D+0   : 0.98D0
+CHI           Sound speed ratio             : 0.0000D+0   : 0.33D0
+-------------------------------------------------------
+<<END
